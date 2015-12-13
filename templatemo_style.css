@@ -16,7 +16,7 @@ body {
 }
 
 a {
-  color: #f55b1f;
+  color: green;
 }
 
 a:hover, a:focus {
@@ -35,6 +35,7 @@ a:hover, a:focus {
   -o-background-size: cover;
   background-size: cover;
   overflow-x: hidden;
+
 }
 
 .templatemo_flower_1 {
@@ -86,10 +87,20 @@ a:hover, a:focus {
 h1 {
   text-align: center;
   color: #e13916;
+  font-family:oxygen;
+}
+
+h2 {
+  font-family:oxygen;
+}
+
+h3 {
+  font-family:oxygen;
 }
 
 h4 {
-  color: #FF961F;
+  color: sienna;
+  font-family:oxygen;
 }
 
 li {
@@ -102,7 +113,7 @@ li, input {
 
 li.active a {
   background-color: rgba(255, 255, 255, 0.2);
-  color: #f55b1f;
+  color: green;
 }
 
 nav {
@@ -143,7 +154,7 @@ article {
 }
 
 .btn-primary {
-  background-color: #f55b1f;
+  background-color: green;
   border-color: #c48c76;
 }
 
@@ -154,7 +165,7 @@ article {
 
 .nav > li > a:hover, .nav > li > a:focus {
   text-decoration: none;
-  background-color: #f55b1f;
+  background-color: green;
   color: white;
 }
 
@@ -230,11 +241,11 @@ article {
 }
 
 #right_container h2 {
-  color: #f55b1f;
+  color: green;
 }
 
 #right_container h3 {
-  color: #f55b1f;
+  color: green;
 }
 
 #templatemo_footer {
