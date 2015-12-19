@@ -5,25 +5,31 @@
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 	<meta name="viewport" content="width=device-width" />
 	<title>Portfolio - Humberland Montessori Academy</title>
+
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
     <!-- 
     Botany Template 
     http://www.templatemo.com/preview/templatemo_391_botany 
     -->
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="templatemo_style.css" rel="stylesheet" type="text/css">
-	<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+  <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
 
-	<!-- HTML 5 shim for IE backwards compatibility -->
-		<!-- [if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
-		</script>
-		<![endif]-->
-	<!-- 
-	Credits
-	Equal Height Columns http://www.hongkiat.com/blog/css-equal-height/ -->
+
+	<!-- Modernizr -->
+  <script src="slider/modernizr.js"></script>
+  <style>
+  	hr.style-one {
+	     border: 0;
+	    height: 1px;
+	    background: #333;
+	    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+		}	
+  </style>
 </head>
 <body class="templatemo_padaut_bg">
 	<div id="main_container">
@@ -38,7 +44,7 @@
 							<li><a href="index.html">Home</a></li>
 							<li><a href="about.html">About</a></li>
 							<li><a href="services.html">Programs</a></li>
-							<li class="active"><a href="#">Portfolio</a></li>
+							<li class="active"><a href="#">Gallery</a></li>
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</nav> <!-- nav -->	
@@ -56,124 +62,86 @@
 				</div>			  	
 				<div id="right_container" class="col col-md-9 col-sm-12">
 					<div class="row">
-                    	<div class="col col-md-12">
-                    		<h2>Portfolio</h2>
-                    	</div>
-                    </div>
+          	<div class="col col-md-12">
+          		<h2>Photo Gallery</h2>
+          	</div>
+          </div>
                     
 					<article class="row">
-						<div class="col col-md-6">							
-							<img src="images/templatemo_tn_1.jpg" alt="Pic 1" class="img-thumbnail img-responsive">
-							<h4>Mauris in erat justo</h4>
-							<p>Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.</p>
-							
-
-							<!-- Button trigger modal -->
-							<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">View</button>
-
-							<!-- Modal -->
-							<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-							  <div class="modal-dialog" role="document">
-							    <div class="modal-content">
-							      <div class="modal-header">
-							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-							      </div>
-							      <div class="modal-body">
-							        ...
-							      </div>
-							      <div class="modal-footer">
-							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-							        <button type="button" class="btn btn-primary">Save changes</button>
-							      </div>
-							    </div>
-							  </div>
+						<div class="col col-md-12">
+							<h4>Our Pre-School Class</h4>
+							<hr class="style-one">
+							<div class="popup-gallery">
+								<a href="more_pics/red_dots/IMG_7917.JPG">
+									<img src="more_pics/red_dots/IMG_7917.JPG" width="75" height="75">
+								</a>
+								<a href="more_pics/red_dots/IMG_7918.JPG">
+									<img src="more_pics/red_dots/IMG_7918.JPG" width="75" height="75">
+								</a>
+								<a href="more_pics/red_dots/IMG_7919.JPG">
+									<img src="more_pics/red_dots/IMG_7919.JPG" width="75" height="75">
+								</a>
+								<a href="more_pics/crayons/IMG_8302.JPG">
+									<img src="more_pics/crayons/IMG_8302.JPG" width="75" height="75">
+								</a>
+								<a href="more_pics/crayons/IMG_8303.JPG">
+									<img src="more_pics/crayons/IMG_8303.JPG" width="75" height="75">
+								</a>
+								<a href="more_pics/crayons/IMG_8304.JPG">
+									<img src="more_pics/crayons/IMG_8304.JPG" width="75" height="75">
+								</a>
+								<a href="more_pics/crayons/IMG_8305.JPG">
+									<img src="more_pics/crayons/IMG_8305.JPG" width="75" height="75">
+								</a>
 							</div>
-
-						</div>
-						<div class="col col-md-6">
-							<img src="images/templatemo_tn_2.jpg" alt="Pic 2" class="img-thumbnail img-responsive">
-							<h4>Etiam pharetra</h4>
-							<p>Nullam ac urna eu felis dapibus condimentum sit amet a augue. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat.</p>
-							
-							<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">View</button>
-
-							<!-- Modal -->
-							<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-							  <div class="modal-dialog" role="document">
-							    <div class="modal-content">
-							      <div class="modal-header">
-							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-							      </div>
-							      <div class="modal-body">
-							        ...
-							      </div>
-							      <div class="modal-footer">
-							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-							        <button type="button" class="btn btn-primary">Save changes</button>
-							      </div>
-							    </div>
-							  </div>
-							</div>
-
 						</div>	           
 					</article> 	
 					<article class="row">
-						<div class="col col-md-6">							
-							<img src="images/templatemo_tn_3.jpg" alt="Pic 3" class="img-thumbnail img-responsive">
-							<h4>Proin gravida</h4>
-							<p>Fusce feugiat dignissim pharetra. Vivamus blandit velit sapien, ac venenatis eros venenatis nec. Sed nec ligula ut arcu bibendum euismod ac eget velit. In hac habitasse platea dictumst. Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow">XHTML</a> &amp; <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow">CSS</a>.</p>
-
-							<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">View</button>
-
-							<!-- Modal -->
-							<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-							  <div class="modal-dialog" role="document">
-							    <div class="modal-content">
-							      <div class="modal-header">
-							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-							      </div>
-							      <div class="modal-body">
-							        ...
-							      </div>
-							      <div class="modal-footer">
-							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-							        <button type="button" class="btn btn-primary">Save changes</button>
-							      </div>
-							    </div>
-							  </div>
+						<div class="col col-md-12">							
+							<h4>Our Kindergarten Class</h4>
+							<hr class="style-one">
+							<div class="popup-gallery">
+								<a href="more_pics/IMG_7993.JPG">
+									<img src="more_pics/IMG_7993.JPG" width="75" height="75">
+								</a>
+								<a href="more_pics/IMG_7994.JPG">
+									<img src="more_pics/IMG_7994.JPG" width="75" height="75">
+								</a>
+								<!-- <a href="more_pics/IMG_7995.JPG">
+									<img src="more_pics/IMG_7995.JPG" width="75" height="75">
+								</a> -->
+								<a href="more_pics/IMG_7996.JPG">
+									<img src="more_pics/IMG_7996.JPG" width="75" height="75">
+								</a>
+								<!-- <a href="more_pics/IMG_7997.JPG">
+									<img src="more_pics/IMG_7997.JPG" width="75" height="75">
+								</a> -->
+								<a href="more_pics/IMG_8061.JPG">
+									<img src="more_pics/IMG_8061.JPG" width="75" height="75">
+								</a>
+								<!-- <a href="more_pics/IMG_8062.JPG">
+									<img src="more_pics/IMG_8062.JPG" width="75" height="75">
+								</a> -->
+								<a href="more_pics/IMG_8319.JPG">
+									<img src="more_pics/IMG_8319.JPG" width="75" height="75">
+								</a>
+								<a href="more_pics/IMG_8320.JPG">
+									<img src="more_pics/IMG_8320.JPG" width="75" height="75">
+								</a>
+								<a href="more_pics/IMG_8321.JPG">
+									<img src="more_pics/IMG_8321.JPG" width="75" height="75">
+								</a>
+								<a href="more_pics/IMG_8322.JPG">
+									<img src="more_pics/IMG_8322.JPG" width="75" height="75">
+								</a>
+								<a href="more_pics/IMG_8323.JPG">
+									<img src="more_pics/IMG_8323.JPG" width="75" height="75">
+								</a>
+								<!-- <a href="more_pics/IMG_8335.JPG">
+									<img src="more_pics/IMG_8335.JPG" width="75" height="75">
+								</a>	 -->
 							</div>
-
-						</div>
-						<div class="col col-md-6">							
-							<img src="images/templatemo_tn_4.jpg" alt="Pic 4" class="img-thumbnail img-responsive">
-							<h4>Duis sed odio</h4>
-							<p>Curabitur blandit, velit a rutrum cursus, mi massa porta nulla, nec ornare nunc leo sit amet ligula. Praesent risus purus, ultrices ac sollicitudin in, lacinia id ligula. Morbi in dictum nunc.</p>
-						
-							<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">View</button>
-
-							<!-- Modal -->
-							<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-							  <div class="modal-dialog" role="document">
-							    <div class="modal-content">
-							      <div class="modal-header">
-							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-							      </div>
-							      <div class="modal-body">
-							        ...
-							      </div>
-							      <div class="modal-footer">
-							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-							        <button type="button" class="btn btn-primary">Save changes</button>
-							      </div>
-							    </div>
-							  </div>
-							</div>
-							
-						</div>	           
+						</div>         
 					</article>	                          
 				</div>
 			</div>
@@ -188,8 +156,42 @@
 			</footer>
 		</div>		
 	</div>
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<!-- jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-</body>
+
+  <script src="slider/jquery.magnific-popup.js"></script>
+
+  <script type="text/javascript">
+  	$(document).ready(function() {
+			$('.popup-gallery').magnificPopup({
+				delegate: 'a',
+				type: 'image',
+				tLoading: 'Loading image #%curr%...',
+				mainClass: 'mfp-img-mobile',
+				gallery: {
+					enabled: true,
+					navigateByImgClick: true,
+					preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+				},
+				image: {
+					tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+					// titleSrc: function(item) {
+					// 	return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+					// }
+				},
+				zoom: {
+					enabled: true,
+					duration: 300, // don't foget to change the duration also in CSS
+					opener: function(element) {
+						return element.find('img');
+					}
+				}
+			});
+		});
+  </script>
 </html>

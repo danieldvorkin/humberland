@@ -86,7 +86,7 @@ a:hover, a:focus {
 
 h1 {
   text-align: center;
-  color: #e13916;
+  color: gold;
   font-family:oxygen;
 }
 
@@ -99,7 +99,7 @@ h3 {
 }
 
 h4 {
-  color: sienna;
+  color: gold;
   font-family:oxygen;
 }
 
@@ -241,11 +241,11 @@ article {
 }
 
 #right_container h2 {
-  color: green;
+  color: gold;
 }
 
 #right_container h3 {
-  color: green;
+  color: gold;
 }
 
 #templatemo_footer {
