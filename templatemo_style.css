@@ -16,11 +16,11 @@ body {
 }
 
 a {
-  color: green;
+  color: yellow;
 }
 
 a:hover, a:focus {
-  color: #CCFF66;
+  color: red
 }
 
 .templatemo_logo {
@@ -187,7 +187,7 @@ article {
 .credit {
   padding-bottom: 9px;
   padding-top: 12px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .container {
@@ -220,7 +220,7 @@ article {
 }
 
 #left_container {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.4);
   text-align: center;
 }
 
@@ -234,6 +234,10 @@ article {
   padding-right: 10px;
   padding-bottom: 0px;
   padding-left: 10px;
+}
+
+#right_container {
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 #right_container .col-md-7 {
