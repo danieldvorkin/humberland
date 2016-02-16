@@ -20,7 +20,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: red
+  color: red;
 }
 
 .templatemo_logo {
