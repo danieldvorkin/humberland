@@ -241,6 +241,11 @@ article {
   #right_container {
     margin-top:-72px;
   }
+  .social {
+    position:relative;
+    top:-10px;
+    left:10px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -272,15 +277,22 @@ article {
     display: block;
     height: auto;
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 120px;
   }
 
   #right_container {
     display: block;
+    top:55px;
   }
 
   #right_container .col-md-7 {
     padding-left: 15px;
+  }
+
+  .social {
+    position:relative;
+    top:-10px;
+    left:10px;
   }
 }
 @import url(http://weloveiconfonts.com/api/?family=entypo);
@@ -322,7 +334,7 @@ ul {
   position: relative;
   height: 3em;
   width: 13.5em;
-  left: 85px;
+  left: 50px;
   top: 60px;
 }
 
