@@ -12,66 +12,22 @@ div a {
 }
 
 body {
-  background-color: #222222;
+  background-color: white;
+  color:cornflowerblue;
+
 }
 
 a {
-  color: yellow;
+  color: cornflowerblue;
 }
 
 a:hover, a:focus {
-  color: red;
+  color: green;
 }
 
 .templatemo_logo {
   margin-top: 20px;
   text-align: center;
-}
-
-.templatemo_juice_bg {
-  background: url(images/templatemo_juice.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  overflow-x: hidden;
-
-}
-
-.templatemo_flower_1 {
-  background: url(images/templatemo_flower.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  overflow-x: hidden;
-}
-
-.templatemo_flower_2 {
-  background: url(images/templatemo_flower2.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  overflow-x: hidden;
-}
-
-.templatemo_garden_bg {
-  background: url(images/templatemo_garden.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  overflow-x: hidden;
-}
-
-.templatemo_padaut_bg {
-  background: url(images/templatemo_padaut.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  overflow-x: hidden;
 }
 
 .flexslider {
@@ -86,7 +42,7 @@ a:hover, a:focus {
 
 h1 {
   text-align: center;
-  color: gold;
+  color: cornflowerblue;
   font-family:oxygen;
 }
 
@@ -99,12 +55,12 @@ h3 {
 }
 
 h4 {
-  color: gold;
+  color: cornflowerblue;
   font-family:oxygen;
 }
 
 li {
-  color: white;
+  color: black;
 }
 
 li, input {
@@ -124,8 +80,9 @@ nav {
 }
 
 p {
-  color: #FFF;
+  color: black;
   font-family: Arial, sans-serif;
+  font-size:15px;
 }
 
 iframe, object, embed {
@@ -165,7 +122,7 @@ article {
 
 .nav > li > a:hover, .nav > li > a:focus {
   text-decoration: none;
-  background-color: green;
+  background-color: #CCC;
   color: white;
 }
 
@@ -192,7 +149,10 @@ article {
 
 .container {
   margin: 0 auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 35px #888888;
+  margin-top:10px;
+  margin-bottom:10px;
 }
 
 .left-inner-addon {
@@ -224,9 +184,9 @@ article {
   text-align: center;
 }
 
-#left_container li a {
-  color: white;
-}
+/*#left_container li a {
+  color: cornflowerblue;
+}*/
 
 #right_container .row {
   clear: both;
@@ -245,15 +205,15 @@ article {
 }
 
 #right_container h2 {
-  color: gold;
+  color: cornflowerblue;
 }
 
 #right_container h3 {
-  color: gold;
+  color: cornflowerblue;
 }
 
 #templatemo_footer {
-  color: #FFFFFF;
+  color: cornflowerblue;
   font-size: 0.8em;
   text-align: center;
   font-family: Arial, sans-serif;
@@ -269,11 +229,17 @@ article {
   }
 
   h4, p {
-    text-align: center;
+    text-align: left;
   }
 
   .btn {
     margin: 0 auto;
+  }
+  #img1, #img2, #img3 {
+    margin-left: 5%;
+  }
+  #right_container {
+    margin-top:-72px;
   }
 }
 
@@ -317,3 +283,111 @@ article {
     padding-left: 15px;
   }
 }
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+a[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+/* ---------- GENERAL ---------- */
+
+/*body {
+  background: #fffdf0;
+  font: 100%/1.5em sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 3em;
+  left: 50%;
+  margin: -1.5em 0 0 -6em;
+  position: absolute;
+  top: 50%;
+  width: 12em;
+}
+*/
+/* ---------- SOCIAL ---------- */
+
+.social {
+  position: relative;
+  height: 3em;
+  width: 13.5em;
+  left: 85px;
+  top: 60px;
+}
+
+.social li {
+  display: block;
+  height: 4em;
+  line-height: 4em;
+  margin: -2.2em;
+  position: absolute;
+  -webkit-transition: -webkit-transform .7s;
+  -moz-transition: -moz-transform .7s;
+  -ms-transition: -ms-transform .7s;
+  -o-transition: -o-transform .7s;
+  transition: transform .7s;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  text-align: center;
+  width: 4em;
+}
+
+.social a {
+  color: #fffdf0;
+  display: block;
+  height: 4em;
+  line-height: 4em;
+  text-align: center;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  width: 4em; 
+}
+
+.social li:hover {
+  -webkit-transform: scale(1.3,1.3) rotate(45deg);
+  -moz-transform: scale(1.3,1.3) rotate(45deg);
+  -ms-transform: scale(1.3,1.3) rotate(45deg);
+  -o-transform: scale(1.3,1.3) rotate(45deg);
+  transform: scale(1.3,1.3) rotate(45deg);
+}
+
+.facebook {
+  background: #155b9d;
+  left: 0;
+  top: 0%;
+}
+.facebook a i, .twitter a i, .dribbble a i {
+  position:relative;
+  top:5px;
+  left:5px;
+}
+
+.twitter {
+  background: #1a9ec4;
+  bottom: 0;
+  left: 25%;
+}
+
+.dribbble {
+  background: #9b6954;
+  left: 50%;
+  top: 0%;
+}
+

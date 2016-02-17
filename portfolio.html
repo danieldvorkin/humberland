@@ -49,15 +49,23 @@
 						</ul>
 					</nav> <!-- nav -->	
 					<div>
-						<a href="https://www.facebook.com/Humberland-Montessori-Academy-461692894015200" target="_blank">
-              <i class="fa fa-facebook fa-2x"></i>
-            </a>
-            <a href="https://www.instagram.com/humberland_montessori_academy/" target="_blank">
-              <i class="fa fa-instagram fa-2x"></i>
-            </a>
-            <a href="https://twitter.com/HumberlandMA" target="_blank">
-              <i class="fa fa-twitter fa-2x"></i>
-            </a>
+						<ul class="social">
+              <li class="facebook">
+                <a href="https://www.facebook.com/Humberland-Montessori-Academy-461692894015200" target="_blank">
+                  <i class="fa fa-facebook fa-2x"></i>
+                </a>
+              </li>
+              <li class="twitter">
+                <a href="https://twitter.com/HumberlandMA" target="_blank">
+                  <i class="fa fa-twitter fa-2x"></i>
+                </a>
+              </li>
+              <li class="dribbble">
+                <a href="https://www.instagram.com/humberland_montessori_academy/" target="_blank">
+                  <i class="fa fa-instagram fa-2x"></i>
+                </a>
+              </li>
+            </ul>
 					</div>
 				</div>			  	
 				<div id="right_container" class="col col-md-9 col-sm-12">
@@ -168,6 +176,7 @@
 
   <script type="text/javascript">
   	$(document).ready(function() {
+  		$('#left_container').css('height', window.innerHeight-50);
 			$('.popup-gallery').magnificPopup({
 				delegate: 'a',
 				type: 'image',

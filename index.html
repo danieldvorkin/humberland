@@ -44,15 +44,23 @@
 						</ul>
 					</nav> <!-- nav -->	
 					<div>
-						<a href="https://www.facebook.com/Humberland-Montessori-Academy-461692894015200" target="_blank">
-              <i class="fa fa-facebook fa-2x"></i>
-            </a>
-            <a href="https://www.instagram.com/humberland_montessori_academy/" target="_blank">
-              <i class="fa fa-instagram fa-2x"></i>
-            </a>
-            <a href="https://twitter.com/HumberlandMA" target="_blank">
-              <i class="fa fa-twitter fa-2x"></i>
-            </a>
+            <ul class="social">
+              <li class="facebook">
+                <a href="https://www.facebook.com/Humberland-Montessori-Academy-461692894015200" target="_blank">
+                  <i class="fa fa-facebook fa-2x"></i>
+                </a>
+              </li>
+              <li class="twitter">
+                <a href="https://twitter.com/HumberlandMA" target="_blank">
+                  <i class="fa fa-twitter fa-2x"></i>
+                </a>
+              </li>
+              <li class="dribbble">
+                <a href="https://www.instagram.com/humberland_montessori_academy/" target="_blank">
+                  <i class="fa fa-instagram fa-2x"></i>
+                </a>
+              </li>
+            </ul>
 					</div>
 				</div>
 				<div id="right_container" class="col col-md-9 col-sm-12">      
@@ -74,7 +82,7 @@
           <h3>Is your child ready for a loving and enriched program that stimulates their imagination?</h3> 
           <article class="row">
 					 <div class="col col-md-12">
-							<img src="pics/IMG_1389.JPG" style="width:298px; height:200px;" class="img-thumbnail img-responsive img_left">
+							<img src="pics/IMG_1389.JPG" style="width:298px; height:200px;" class="img-thumbnail img-responsive img_left" id="img1">
                 <h3 class="header-title">Humberland is for you</h3>
 							<p>If you are looking for a nurturing, loving environment where your child will truly blossom, you’ve found the right place!<br/><br>
               Why choose a regular daycare for your child? Why not put them in a Montessori daycare that provides your child with high quality education at an early age. Many experts agree that children are motivated and will learn more between the ages of 0 and 6 years old, than any other time in their lives. Humberland Montessori Academy (HMA) emphasizes independence in order to help provide your child with the foundation for a life-long love of learning and give them the skills they need for greater success in other areas of their life. We are committed to providing an exceptional Montessori education where your child can be creative, explore, and discover. Our positive teaching environment truly feels like an extended family. HMA is locally owned and operated school that’s fully accredited and staffed with loving, caring, experienced instructors. </p>
@@ -83,7 +91,7 @@
 					</article>
 					<article class="row">
 						<div class="col col-md-12">
-							<img src="pics/IMG_1302.JPG" style="width:298px; height:200px;" class="img-thumbnail img-responsive img_left">
+							<img src="pics/IMG_1302.JPG" style="width:298px; height:200px;" class="img-thumbnail img-responsive img_left" id="img2">
                 <h3 class="header-title">Focused Education</h3>
 							<p>Our Academy will give your child the basis while instilling the potential for creativity and innovation at an early age. Our goal at HMA is to create a pleasant and nurturing environment where the child is able to reach his/her full potential. We believe education is the foundation for life. The education a child receives at an early age is one of the most important factors that will determine his or her future. 
               <br><br>
@@ -92,22 +100,18 @@
 					</article>	
 					<article class="row">
 						<div class="col col-md-12">
-              <div class="col-md-5" style="margin-top:60px;">
-							  <img src="pics/IMG_1395.JPG" style="width:298px;height:210px;" class="img-thumbnail img-responsive img_left">
-              </div>
-              <div class="col-md-7">
-                <h3 class="header-title">Why Choose HMA?</h3>
-  							<ul>
-                  <li>Provide an enriched experience and create a love of learning</li>
-                  <li>Develop a child’s full potential</li>
-                  <li>Guide children in their development and stimulate growth and socialization</li>
-                  <li>Ensure the children have a solid understanding of the fundamentals of Math and Language</li>
-                  <li>Give children the opportunity to explore science and technology and gain an appreciation for discovery and invention</li>
-                  <li>Develop creative thought and logic abilities</li>
-                  <li>Help children explore their natural interests and skills</li>
-                  <li>We are a dedicated team of loving and nurturing Montessori trained teachers</li>
-                </ul>
-              </div>
+							<img src="pics/IMG_1395.JPG" style="width:auto;height:210px;" class="img-thumbnail img-responsive img_left" id="img3">
+              <h3 class="header-title">Why Choose HMA?</h3>
+							<ul>
+                <li>Provide an enriched experience and create a love of learning</li>
+                <li>Develop a child’s full potential</li>
+                <li>Guide children in their development and stimulate growth and socialization</li>
+                <li>Ensure the children have a solid understanding of the fundamentals of Math and Language</li>
+                <li>Give children the opportunity to explore science and technology and gain an appreciation for discovery and invention</li>
+                <li>Develop creative thought and logic abilities</li>
+                <li>Help children explore their natural interests and skills</li>
+                <li>We are a dedicated team of loving and nurturing Montessori trained teachers</li>
+              </ul>
 						</div>			            
 					</article>                
 				</div>
@@ -124,15 +128,16 @@
 		</div>		
 	</div>
     
-  <!-- jQuery -->
+  
+<!-- jQuery -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
-
   <!-- FlexSlider -->
   <script defer src="slider/jquery.flexslider.js"></script>
 
   <script type="text/javascript">
     $(function(){
+      $('#left_container').css('height', window.innerHeight-50);
       SyntaxHighlighter.all();
     });   
     $(window).load(function(){
